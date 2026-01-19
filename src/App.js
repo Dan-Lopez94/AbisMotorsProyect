@@ -1,7 +1,11 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 
 function App() {
-  return <Box p={5}>Bienvenidos a Abi's Motor's</Box>;
+  return <Box align="center">
+    <Heading color={"white"} textShadow="2px 2px 4px rgba(0, 0, 0, 0.4)">
+      Bienvenidos a Abi's Motor's
+    </Heading>
+  </Box>;
 }
 
 export default App;
