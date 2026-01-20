@@ -6,3 +6,9 @@ textHead {
 		-1px -1px 0 black,
 		1px -1px 0 black;
 }
+
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
