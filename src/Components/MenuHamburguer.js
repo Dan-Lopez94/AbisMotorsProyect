@@ -6,6 +6,7 @@ import {
     Button
 } from "@chakra-ui/react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 export default function MenuHamburguer() {
     return (
@@ -13,11 +14,9 @@ export default function MenuHamburguer() {
             <MenuButton as={Button} borderColor={"black"} borderWidth={"1px"}>
                 <GiHamburgerMenu />
             </MenuButton>
-
             <MenuList w={"150px"} minW={"unset"}>
-                <MenuItem >Inicio</MenuItem>
-                <MenuItem >Perfil</MenuItem>
-                <MenuItem >Configuración</MenuItem>
+                <Link to="/"><MenuItem >Inicio</MenuItem></Link>
+                <Link to="/category"><MenuItem >Categoría</MenuItem></Link>
                 <MenuItem >Cerrar sesión</MenuItem>
             </MenuList>
         </Menu>
