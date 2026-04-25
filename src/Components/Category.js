@@ -1,10 +1,8 @@
-import { Heading } from "@chakra-ui/react"
-import Header from "./Header"
+import { Box } from "@chakra-ui/react"
 
 export default function Category() {
 
     return <>
-        <Header />
-        <Heading>Menú de categorías</Heading>
+        <Box>Menú de categorías</Box>
     </>
 }
