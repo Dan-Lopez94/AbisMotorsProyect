@@ -4,13 +4,13 @@ export default function Category() {
     
     return <> 
 
-    <Box backgroundColor={"red"} textAlign={"center"}> 
+    <Box backgroundColor={"gray.800"} textAlign={"center"}> 
 
-<Heading size="2xl" color={"#00ff00"}> Fasti</Heading>
+<Heading size="2xl" color={"skyblue"}> Abi´s moto</Heading>
              
     </Box>
 
-    <Box backgroundColor={"skyblue"} textAlign={"center"}>
+    <Box backgroundColor={"gray"} textAlign={"center"}>
        <Heading size="2xl" color={"#ffffff"}> <Image src="/image/NITRO 150.png"/>
         </Heading> 
        
