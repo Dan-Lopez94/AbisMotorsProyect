@@ -1,14 +1,3 @@
-La etiqueta <Box> sirve para crear un contenedor
-donde vamos a añadir todo nuestro contenido, siempre y cuando el contenido esté
-dentro de las etiquetas de apertura y cierre
-<Box> contenido </Box>
-
-Para importar etiquetas se debe de escribir import antes de cualquier otra cosa
-ejemplo
-
-import {nombre de la etiqueta} from "direccion de lo que se está importando"
-import { Box, Button, Heading } from "@chakra-ui/react"
-
 Para trabajar con ramas entre nosotros es necesario para que no haya "interferencia" al momento de subir los cambios al repositorio, para crear una rama debes de usar el siguiente comando
 
 git branch "y el nombre que quieras poner a tu rama" (no debe de llevar comillas)
