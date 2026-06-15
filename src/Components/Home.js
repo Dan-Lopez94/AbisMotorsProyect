@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react"
+import { Box, Grid, GridItem } from "@chakra-ui/react"
 import CategoryCard from "./CardComponents/CategoryCard"
 
 export default function Home() {
